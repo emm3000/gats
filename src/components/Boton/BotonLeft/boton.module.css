@@ -1,0 +1,25 @@
+.boton {
+  position: absolute;
+  /* left: -10%; */
+  top: 40vh;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  outline: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.boton:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+.icon {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;  
+}

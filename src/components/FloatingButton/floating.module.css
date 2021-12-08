@@ -1,0 +1,21 @@
+.button {
+  position: fixed;
+  bottom: 50px;
+  left: 30px; 
+  color: #fff;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  z-index: 995;
+}
+
+.button img {
+  width: 100%;
+  height: auto;
+}
+
+.button:hover {
+  opacity: .7;
+}

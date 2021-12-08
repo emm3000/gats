@@ -1,0 +1,67 @@
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* padding: 40px; */
+  padding-top: 50px;
+}
+
+.text {
+  width: 55%;
+  padding: 16px;
+}
+
+.imagenWrapper {
+  width: 40%;
+  padding: 16px;
+}
+
+.imagen {
+  width: 100%;
+  margin-bottom: 0px;
+  margin-bottom: 16px;
+}
+
+.titulo { 
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.name {
+  color: #9f8ad0;
+}
+
+.divider {
+  border-bottom: 3px solid #9f8ad0;
+  margin-bottom: 25px;
+  width: 30%;
+}
+
+.primerParrafo {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+
+.subtitulo {
+  margin-bottom: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+}
+
+.lista {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.lista li::before {
+  content: "- ";
+}
+
+.lista li {
+  margin-bottom: 4px;
+}
